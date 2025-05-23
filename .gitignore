@@ -1,0 +1,96 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# FastAPI/Starlette
+instance/
+
+# 환경 변수 및 설정 파일
+.env
+.env.*
+*.env
+
+# 로그 파일
+logs/
+*.log
+
+# 데이터베이스/캐시
+*.sqlite3
+*.db
+*.db-journal
+*.mysql
+*.pid
+*.redis
+
+# 미디어/업로드 파일
+/media_storage/
+media_storage/
+
+# Jupyter 노트북
+.ipynb_checkpoints/
+
+# OS별 파일
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+*.swp
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.bak
+*.tmp
+
+# 기타
+*.swp
+*.swo
+*.orig
+*.tmp
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+
+# pytest
+.pytest_cache/
+
+# coverage
+.coverage
+htmlcov/
+.coverage.*
+
+# Reports
+reports/
+*.pdf
+*.xlsx
+
+# Python 가상환경
+venv/
+.venv/
+myenv
+.myenv/
+env/
+.env/
+.python_env/
+ENV/
+.Python/
